@@ -30,6 +30,12 @@ https://play2plant.github.io/leaf_owner/
   - `npm install`
   - `npm run start`
   
+## Couvetrure de testes à 96.46%
+- tests d'intégration complet pour owner
+- tests d'intégration complet pour le joueur
+- une personne externe ne peut pas faire des transactions avec la dapp (seulement peux acheter un LNFT)
+<img src="https://github.com/AramArDev/leaf_dapp/blob/main/documents/tests_coverage.jpg" alt="drawing" width="600"/>  
+
 ## Tester la dApp
 REMARQUES : à cause des conflits de node_modules @openzeppelin/test-helpers a été enlevé. Donc, pouvoir tester la dapp; il faut lancer :
   `npm install @openzeppelin/test-helpers --save`
@@ -53,11 +59,3 @@ REMARQUES : à cause des conflits de node_modules @openzeppelin/test-helpers a �
   - [LeafToken.sol](https://ropsten.etherscan.io/token/0x3BFf79747cbb81AD5547F01957c1F9E224f1358c)
   - [LeafNft.sol](https://ropsten.etherscan.io/token/0x291F4289ff8f366103cFD5b3Ad9D98cbf5C32825)
   - [LeafDapp.sol](https://ropsten.etherscan.io/address/0xCF3b77c9db0dB46109C09d1ec268Edbbe1A596DD)
-
-# Couvetrure de testes à 96.46%
-- tests d'intégration complet pour owner
-- tests d'intégration complet pour le joueur
-- une personne externe ne peut pas faire des transactions avec la dapp (seulement peux acheter un LNFT)
-<img src="https://github.com/AramArDev/leaf_dapp/blob/main/documents/tests_coverage.jpg" alt="drawing" width="600"/>
-
-
